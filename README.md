@@ -4,7 +4,7 @@
 |S.No |  Name |  Done 
 |---|---|---|
 |1|  WAP to read n values and display it in reverse order. | ✅|
-|2| WAP to copy the elements of one array into another  |  ❌ |
+|2| WAP to copy the elements of one array into another  |  ✅ |
 |3|  WAP to count a total |  ❌ |
 |4|  WAP to print all unique elements in array |  ❌ |
 |5|  WAP to merge two arrays of same size sorted in decending order | ❌  |
