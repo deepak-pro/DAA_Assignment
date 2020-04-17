@@ -12,4 +12,4 @@
 |7|  WAP to seperate odds and evens in seperate arrays |  ✅ |
 |8| WAP to insert new value in array|✅ |
 |9| WAP to delete element at desired position in an array. | ✅|
-|10| WAP to find second largest element in array |❌ |
+|10| WAP to find second largest element in array |✅ |
