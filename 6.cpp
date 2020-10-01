@@ -2,7 +2,11 @@
 using namespace std;
 
 int main(){
-    int a[] = {100,96,32,22,12} ;
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;++i)
+        cin>>a[i];
     int max = a[0] , min = a[0] ;
     for(int i=1 ; i< 5 ; ++i){
         if(a[i]>max)
