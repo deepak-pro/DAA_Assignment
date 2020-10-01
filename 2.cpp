@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-    int a[] = {1,2,3,4,5} ;
-    int b[5];
-    for(int i=0 ; i<5 ; ++i)
+    int n;
+    cin>>n;
+    int a[n];
+    int b[n];
+    for(int i=0 ; i<n ; ++i)
+        cin>>a[i];
+    for(int i=0 ; i<n ; ++i)
         b[i] = a[i];
-    for(int i=0; i<5 ; ++i)
+    for(int i=0; i<n ; ++i)
         cout << b[i] << " " ;
     return 0;
 }
