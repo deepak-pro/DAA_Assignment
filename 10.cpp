@@ -1,10 +1,12 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-
 int main(){
-    int a[] = {9,8,7,22,5,4,3,2,1};
-    int n = sizeof(a)/sizeof(a[1]);
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++)
+      cin>>a[i];
     int max = a[0] , sMax = INT_MIN ;
     for(int i=1;  i<n ; ++i){
         if(a[i]>max){
